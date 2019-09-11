@@ -5,11 +5,12 @@ html {
 h1,
 h2 {
     font-family: 'Linux Libertine', Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    border-bottom: 1px solid #999999;
 }
 h1 {
     font-weight: normal;
-    font-size: 1.8em;
-    border-bottom: 1px solid #999999  
+    font-size: 1.8em; 
 }
 a {
     text-decoration: none;
@@ -29,8 +30,35 @@ blockquote {
     font-size: 1em;
 }
 nav {
+    width: 330px;
+    height: 200px;
     text-align: left;
     line-height: 2em;
-    font-size: 1em;
+    font-size: 0.95em;
     font-weight: 450;
+    padding: 1px 5px 5px 1px;
+    margin: 30px;
+    border: 1.2px solid #999999;
+}
+img.profile {
+    padding: 10px;
+    border: 1px solid #999999;
+    float: right;
+    margin: 20px
+}
+img.photo {
+    padding: 10px;
+    border: 1px solid #999999;
+}
+ol {
+    counter-reset: section;
+    list-style-type: none;
+}
+li::before {
+    counter-increment: section;
+    content: counters(section, ".") " ";
+}
+p.label {
+    font-weight: 600;
+    text-align: center;
 }
