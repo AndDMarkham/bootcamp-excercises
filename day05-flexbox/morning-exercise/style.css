@@ -1,0 +1,38 @@
+html {
+    box-sizing: border-box;
+    font-size: 20px
+}
+
+body {
+    background-image: url('img/africa-944465_1920.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.text {
+    width: 20rem;
+    margin: 2rem 10rem;
+    text-align: center;
+}
+
+img {
+    width: 25rem;
+    position: fixed;
+    top: 7rem;
+    left: 36rem;
+}
+
+h1 {
+    font-size: 5rem;
+    font-family: 'Modak', cursive;
+    font-weight: 200;
+    color: #444444;
+}
+
+p {
+    margin-top: 6rem;
+    color: #eeeeee;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.5rem;
+}
