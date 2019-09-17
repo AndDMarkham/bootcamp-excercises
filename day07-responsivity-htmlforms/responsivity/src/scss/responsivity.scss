@@ -1,0 +1,45 @@
+@import 'style/style.css';
+
+@media (min-width: 768px) {
+   .container{
+       margin: 1rem;
+   }
+   
+    header {
+       display: flex;
+       flex-direction: row-reverse;
+       justify-content: space-between;
+       align-items: center;
+   }
+   
+    nav {
+        flex-direction: row;
+        padding-left: 1rem;
+
+        a {
+            padding: 0 1rem;
+        }
+    }
+
+    .plans {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+
+        .card {
+            width: calc(50% - 1em);
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .plans {
+        display: flex;
+        flex-flow: row nowrap;
+ 
+        .card {
+            margin: 1rem;
+            width: calc(25% - 1em);
+        }
+    }
+}
