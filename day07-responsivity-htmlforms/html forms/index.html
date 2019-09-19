@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>HTML Forms</title>
+</head>
+<body>
+    What do you want?
+    <form method="post" action="https://classes.codingbootcamp.cz/assets/classes/request-visualization/script.php">
+        
+        <input type="hidden" name="product-id" value="239857">
+
+        <div class="input">
+            
+            <input type="text" name="greeting" value="Goede morgen!" />
+            
+        </div>
+
+
+        <br>
+        <label for="bio">Tell us about yourself</label>
+        <textarea id="bio" name="biography" cols="30" rows="10" required></textarea>
+        <br>     
+        
+       <div>   
+            <label for="want_newsletter_check">Do you wanna?</label>
+            <input type="hidden" name="want_newsletter" value="no">
+            <input type="checkbox" name="want_newsletter" value="yes" id="want_newsletter_check" checked>
+       </div> 
+       <br>
+
+       <div>
+            <input type="radio" name="gender" value="male" id="gen_male">
+            <label for="gen_male">male</label>
+            <input type="radio" name="gender" value="female" id="gen_female">
+            <label for="gen_female">female</label>
+            <input type="radio" name="gender" value="other" id="gen_other">
+            <label for="gen_other">other</label>
+        </div>
+        <br>
+        
+        <select name="nationality" id="">
+            <option value="cz">Czech</option>
+            <option value="sk">Slovak</option>
+            <option value="tr">Turkish</option>
+            <option value="en">English</option>
+        </select>
+        <br>
+
+        <div class="submit">
+            <input type="submit" name="submit" value="Save" />
+
+            <input class="uhoh" type="submit" name="submit"  value="Delete" />
+        </div>
+
+
+    </form>
+</body>
+</html>
