@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.chessboard {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10vmin;
+}
+
+.light {
+    width: 10vmin;
+    height: 10vmin;
+    background-color: darkgray;
+    margin: 0 .0625rem;
+}
+
+.dark {
+    width: 10vmin;
+    height: 10vmin;
+    background-color: #444444;
+    margin: 0 .0625rem;
+}
+
+.first-row {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 10vmin;
+    margin-bottom: .125rem;
+}
+
+.middle-row {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: .125rem;
+}
+
+.last-row {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 10vmin;
+}
