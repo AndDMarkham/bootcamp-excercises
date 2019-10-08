@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-top: 5rem;
+  }
+
+  .products {
+      width: 100%;
+  }
+
+  .product-info {
+      display: flex;
+      justify-content: space-between;
+      background-color:steelblue;
+      color: whitesmoke;
+      margin-bottom: 1rem;
+      padding: 1rem 1.5rem;
+  }
+
+  h4 {
+      margin: 0;
+      padding-bottom: 1rem;
+  }
+
+  .info {
+      padding: 0 1rem;
+  }
+
+  .btn {
+      height: 1.5rem;
+      background-color: lightgray;
+      border: none;
+      border-radius: 0.5rem;
+      margin-top: 1rem;
+    }

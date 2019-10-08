@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-top: 5rem;
+  }
+
+  .list {
+      width: 24rem;
+  }
+
+  .list-item {
+      display: flex;
+      justify-content: space-between;
+      background-color: lightcoral;
+      margin-bottom: 1rem;
+      padding: 1rem 1.5rem;
+  }
+
+  .list-item > div {
+      width: 8rem;
+  }
+
+  

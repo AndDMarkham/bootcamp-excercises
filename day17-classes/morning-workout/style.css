@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-color: lightgray;
+}
+
+.message-body {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 2rem 1rem 1rem 1rem;
+    width: 50%;
+    height: 100vh;
+    background-color: white;
+    overflow: scroll;
+}
+
+.remote {
+    display: flex;
+}
+
+.remote > .text {
+    margin: 1rem;
+    padding: 1.5rem;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(155, 155, 155);
+    width: 300px;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 3px darkgray;
+}
+
+.local {
+    align-self: flex-end;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.local > .text {
+    margin: 1rem;
+    padding: 1.5rem;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(26, 75, 238);
+    width: 300px;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 3px darkgray;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
