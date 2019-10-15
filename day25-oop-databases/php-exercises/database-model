@@ -1,0 +1,18 @@
+id:             integer (or short string)
+first name:     short string
+last name:      short string
+sex:            short string
+d.o.b.:         date
+email:          short string
+address:        long string
+nationality:    short string
+level:          integer
+grade:          decimal
+matriculation:  date
+graduation:     date
+department:     short string
+major:          short string
+scholarship:    boolean
+on campus?:     boolean
+medical_issues: long string
+mentor:         short string
