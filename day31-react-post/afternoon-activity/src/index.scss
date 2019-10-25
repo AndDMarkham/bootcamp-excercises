@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Jomolhari&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+
+    h1 {
+        color: darkcyan;
+        font-family: 'Jomolhari', serif;   
+    }
+
+
+    .poster {
+        width: 15rem;
+    }
+}
